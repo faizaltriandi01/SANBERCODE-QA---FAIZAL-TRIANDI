@@ -9,16 +9,6 @@ class TestAddCart(unittest.TestCase):
     def setUp(self):
        self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
-    # def a_success_login(self):
-    #     self.driver.get("https://www.saucedemo.com")
-    #     time.sleep(6)
-    #     self.driver.find_element(By.ID,"user-name").send_keys("standard_user")
-    #     time.sleep(1)
-    #     self.driver.find_element(By.ID,"password").send_keys("secret_sauce")
-    #     time.sleep(2)
-    #     self.driver.find_element(By.ID,"login-button").click()
-    #     time.sleep(4)
-
     def test_a_success_add_to_cart(self):
 
         # Login
